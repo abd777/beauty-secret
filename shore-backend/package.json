@@ -1,0 +1,25 @@
+{
+  "name": "shore-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test-cron": "node -e 'require(\"./index.js\").main()'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "axios": "^0.21.4",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^110.0.0",
+    "i": "^0.3.7",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.2",
+    "npm": "^9.3.1"
+  }
+}
